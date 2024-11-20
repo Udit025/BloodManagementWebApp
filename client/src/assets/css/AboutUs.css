@@ -1,0 +1,110 @@
+/* General layout for About Us section */
+.about-us {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* About section styles */
+.about-section {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333; /* Dark color for text in the About section */
+}
+
+.about-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333; /* Dark color for heading */
+}
+
+.about-section p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #333; /* Dark color for text */
+}
+
+/* Team Section Header */
+.about-heading {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: #333; /* Dark color for the "Our Team" heading */
+}
+
+.black-color {
+  color: #333; /* Ensures all text using black-color class is dark */
+}
+
+/* Flexbox for team members */
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  flex: 1;
+  max-width: 400px;
+  min-width: 280px;
+  box-sizing: border-box;
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.card-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-container h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #333; /* Dark color for name */
+}
+
+.card-container .title {
+  font-size: 1.2em;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.card-container p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  color: #333; /* Dark color for email */
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

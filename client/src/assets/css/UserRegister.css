@@ -1,0 +1,96 @@
+.user-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Monospace', sans-serif;
+    background: linear-gradient(135deg, #f3f4f6, #e9ebee);
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.userReg-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.userReg-form input,
+.userReg-form select {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    padding: 0 1em;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    color: #333;
+    font-size: 16px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.userReg-form input:focus,
+.userReg-form select:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5), inset 0 1px 3px rgba(0, 123, 255, 0.2);
+    transform: scale(1.02);
+}
+
+.userReg-form select {
+    background: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.userReg-form select::-ms-expand {
+    display: none; /* Hide default dropdown arrow in IE */
+}
+
+.userReg-form button {
+    width: 140px;
+    height: 45px;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid #007BFF;
+    background: linear-gradient(135deg, #007BFF, #0056b3);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.userReg-form button:hover {
+    background: linear-gradient(135deg, #0056b3, #003f7f);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+    .user-register {
+        padding: 20px 15px;
+    }
+
+    .userReg-form input,
+    .userReg-form select {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .userReg-form button {
+        width: 120px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "blood_donation_management_system",
+  "version": "1.0.0",
+  "description": "blood bank management system",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "author": "uditSrivastava",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "alert": "^5.0.6",
+    "blood_donation_management_system": "file:",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4",
+    "popups": "^1.1.3"
+  }
+}
